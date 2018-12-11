@@ -1,0 +1,16 @@
+{
+    "id": "pluginkit-vue-babel",
+    "name": "PluginKit Vue with Babel",
+    "version": "1.0.0",
+    "host": {
+        "app": "XD",
+        "minVersion": "13.0.0"
+    },
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "PluginKit Vue with Babel",
+            "commandId": "menuCommand"
+        }
+    ]
+}

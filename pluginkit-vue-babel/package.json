@@ -1,0 +1,35 @@
+{
+  "name": "pluginkit-vue-babel",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack && npm run deploy",
+    "watch": "webpack --watch & xdpm watch ./dist -o",
+    "deploy": "xdpm install ./dist -o",
+    "format": "prettier --write 'src/**/*.{js,vue}'",
+    "validate": "xdpm validate ./dist",
+    "package": "xdpm package ./dist && mv dist.xdx japanese-proofreading.xdx"
+  },
+  "devDependencies": {
+    "@adobe/xdpm": "^1.1.2",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "chokidar": "^2.0.4",
+    "cli": "^1.0.1",
+    "css-loader": "^2.0.0",
+    "debounce": "^1.2.0",
+    "ignore-walk": "^3.0.1",
+    "prettier": "^1.15.3",
+    "shelljs": "^0.8.3",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.4.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "yazl": "^2.5.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.19",
+    "vue-template-compiler": "^2.5.19"
+  }
+}
