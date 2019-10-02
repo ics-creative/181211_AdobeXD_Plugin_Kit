@@ -34,14 +34,14 @@ export default {
 };
 </script>
 
-<style>
-  .logo {
-    display: block;
-    width: 64px;
-    height: 64px;
-    background: url("assets/logo.png");
-    background-size: contain;
-  }
+<style scoped>
+.logo {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: url("assets/logo.png");
+  background-size: contain;
+}
 form {
   width: 300px;
 }
