@@ -63,12 +63,12 @@ module.exports = {
   },
   // import 文で .ts ファイルを解決するため
   resolve: {
-    // Webpackで利用するときの設定
+    // webpackで利用するときの設定
     alias: {
       // エイリアスを失敗したら地獄を見る
     },
     extensions: [
-      '.ts', '.js', '.json',
+      '.vue', '.ts', '.js', '.json',
     ],
   },
 

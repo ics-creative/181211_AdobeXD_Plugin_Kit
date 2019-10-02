@@ -11,7 +11,8 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from "vue";
+export default Vue.extend({
   props: {
     dialog: {
       type: Object
@@ -31,10 +32,10 @@ export default {
       count: 0
     };
   }
-};
+});
 </script>
 
-<style>
+<style scoped>
 .logo {
   display: block;
   width: 64px;
