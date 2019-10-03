@@ -11,20 +11,14 @@
   },
   "devDependencies": {
     "@adobe/xdpm": "^3.0.1",
-    "chokidar": "^3.2.1",
-    "cli": "^1.0.1",
     "css-loader": "^3.2.0",
-    "debounce": "^1.2.0",
-    "ignore-walk": "^3.0.2",
     "prettier": "^1.18.2",
-    "shelljs": "^0.8.3",
     "ts-loader": "^6.2.0",
     "typescript": "^3.6.3",
     "url-loader": "^2.1.0",
     "vue-loader": "^15.7.1",
     "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9",
-    "yazl": "^2.5.1"
+    "webpack-cli": "^3.3.9"
   },
   "dependencies": {
     "@adobexd/typings": "https://github.com/AdobeXD/typings",
