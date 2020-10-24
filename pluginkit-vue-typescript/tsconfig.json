@@ -4,6 +4,9 @@
     // CommonJS にする必要がある
     "module": "commonjs",
     "baseUrl": ".",
+    "types": [
+      "node"
+    ],
     // 名前空間の解決
     "paths": {
       "scenegraph": [
