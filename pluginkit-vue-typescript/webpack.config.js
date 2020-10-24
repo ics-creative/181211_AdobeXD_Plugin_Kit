@@ -18,7 +18,7 @@ module.exports = {
   },
 
   // ソースマップはXD側で使えないので、無効にする
-  devtool: 'none',
+  // devtool: 'nosources',
 
   module: {
     rules: [

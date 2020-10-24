@@ -14,8 +14,8 @@
 export default {
   props: {
     dialog: {
-      type: Object
-    }
+      type: Object,
+    },
   },
   methods: {
     increment() {
@@ -23,14 +23,14 @@ export default {
     },
     close() {
       this.dialog.close();
-    }
+    },
   },
   data() {
     return {
       message: "こんにちは Vue Component の世界!",
-      count: 0
+      count: 0,
     };
-  }
+  },
 };
 </script>
 

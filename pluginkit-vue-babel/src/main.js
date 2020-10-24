@@ -12,7 +12,7 @@ function createDialog() {
     components: { Hello },
     render(h) {
       return h(Hello, { props: { dialog } });
-    }
+    },
   });
   return dialog;
 }
@@ -23,6 +23,6 @@ module.exports = {
     // コマンドが押されたらこの関数を呼び出す
     menuCommand: () => {
       createDialog().showModal();
-    }
-  }
+    },
+  },
 };

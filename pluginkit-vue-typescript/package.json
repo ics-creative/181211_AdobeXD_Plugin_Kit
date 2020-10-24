@@ -10,20 +10,20 @@
     "package": "xdpm package ./dist && mv dist.xdx my-plugin.xdx"
   },
   "devDependencies": {
-    "@adobe/xdpm": "^3.0.1",
-    "css-loader": "^3.2.0",
-    "prettier": "^1.18.2",
-    "ts-loader": "^6.2.0",
-    "typescript": "^3.6.3",
-    "url-loader": "^2.1.0",
-    "vue-loader": "^15.7.1",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "@adobe/xdpm": "^4.1.0",
+    "css-loader": "^5.0.0",
+    "prettier": "^2.1.2",
+    "ts-loader": "^8.0.6",
+    "typescript": "^4.0.3",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.3",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
   },
   "dependencies": {
     "@adobexd/typings": "https://github.com/AdobeXD/typings",
-    "@types/node": "^12.7.9",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
+    "@types/node": "^14.14.2",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
   }
 }
