@@ -4,3 +4,4 @@ node_modules
 Thumbs.db
 yarn.lock
 package-lock.json
+/pluginkit-vue-typescript/dist/main.js.LICENSE.txt

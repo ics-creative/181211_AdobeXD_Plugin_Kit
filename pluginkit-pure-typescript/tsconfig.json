@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // 厳格モードに設定。しんどかったら外してね
+    "strict": true,
+    "target": "es2020",
+    // CommonJS にする必要がある
+    "module": "commonjs",
+    "baseUrl": ".",
+    "types": [
+      "node"
+    ],
+    // 名前空間の解決
+    "paths": {
+      "*": [
+        "./node_modules/@adobexd/typings/types/index.d.ts"
+      ]
+    }
+  }
+}

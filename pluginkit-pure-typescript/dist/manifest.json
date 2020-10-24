@@ -1,0 +1,36 @@
+{
+  "id": "plgpurts",
+  "name": "PluginKit with TypeScript",
+  "description": "PluginKit with TypeScript",
+  "summary": "PluginKit with TypeScript",
+  "languages": [
+    "en",
+    "ja"
+  ],
+  "author": "your name",
+  "version": "1.0.0",
+  "helpUrl": "https://qiita.com/clockmaker/items/6ded50e81a7b9f556ae7",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon_24.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon_48.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "20.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "PluginKit with TypeScript",
+      "commandId": "menuCommand"
+    }
+  ]
+}
