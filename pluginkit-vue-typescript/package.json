@@ -5,7 +5,7 @@
     "build": "webpack && npm run deploy",
     "watch": "webpack --watch & xdpm watch ./dist -o",
     "deploy": "xdpm install ./dist -o",
-    "format": "prettier --write 'src/**/*.{js,ts,vue}'",
+    "format": "prettier --write 'src/**/*.{js,ts,vue}' && prettier --write 'webpack.config.js'",
     "validate": "xdpm validate ./dist",
     "package": "xdpm package ./dist && mv dist.xdx my-plugin.xdx"
   },

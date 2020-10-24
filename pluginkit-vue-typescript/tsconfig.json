@@ -1,34 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2018",
+    "strict": true,
+    "target": "es2015",
     // CommonJS にする必要がある
     "module": "commonjs",
     "baseUrl": ".",
     "types": [
-      "node"
-    ],
-    // 名前空間の解決
-    "paths": {
-      "scenegraph": [
-        "./node_modules/@adobexd/typings/types/scenegraph"
-      ],
-      "application": [
-        "./node_modules/@adobexd/typings/types/application"
-      ],
-      "commands": [
-        "./node_modules/@adobexd/typings/types/commands"
-      ],
-      "uxp": [
-        "./node_modules/@adobexd/typings/types/uxp"
-      ],
-      "os": [
-        "./node_modules/@adobexd/typings/types/os"
-      ]
-    },
-    // 型定義ファイルに参照を通す
-    "typeRoots": [
-      "@types",
-      "./node_modules/@adobexd/"
+      "node",
+      "@adobexd/typings"
     ]
   }
 }

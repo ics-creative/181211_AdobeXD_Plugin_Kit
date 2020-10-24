@@ -1,7 +1,7 @@
 <template>
   <form>
     <h1>{{ message }}</h1>
-    <p class="logo"></p>
+    <div class="logo"></div>
     <p>ボタンが {{ count }} 回押されたよ！</p>
     <footer>
       <button uxp-variant="cta" @click="increment">クリックしてね</button>
@@ -11,12 +11,12 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue, { PropType } from "vue";
 export default Vue.extend({
   props: {
     dialog: {
-      type: Object
-    }
+      type: Object as PropType<HTMLDialogElement>,
+    },
   },
   methods: {
     increment() {
@@ -24,14 +24,14 @@ export default Vue.extend({
     },
     close() {
       this.dialog.close();
-    }
+    },
   },
   data() {
     return {
       message: "こんにちは Vue Component の世界!",
-      count: 0
+      count: 0,
     };
-  }
+  },
 });
 </script>
 
@@ -40,7 +40,7 @@ export default Vue.extend({
   display: block;
   width: 64px;
   height: 64px;
-  background: url("assets/logo.png");
+  background: url("./assets/logo.png");
   background-size: contain;
 }
 form {
